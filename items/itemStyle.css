@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+#container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#threejs-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.title {
+  position: absolute; /* Absolute positioning to overlay the canvas */
+  top: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+.footnote {
+  position: absolute; /* Absolute positioning to overlay the canvas */
+  bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+
+.back {
+  position: absolute; /* Absolute positioning to overlay the canvas */
+  top: 20px;
+  right: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
